@@ -1,0 +1,220 @@
+*{
+	box-sizing: border-box;
+}
+
+.distribucion2
+{
+	background-color: #58585a;
+	display: flex;
+	align-items: center;
+	height: 5em;
+	display: ruby-base;
+	animation: fadeInRight;	
+	animation-duration: 2s;	
+}	
+}
+.distribucion3
+{
+	background-color: #58585a;
+	display: flex;
+	align-items: center;
+	height: 5em;	
+}
+
+body
+{
+	margin:auto;
+	background-color: #020000;
+}
+
+header
+{
+	background-color: #221d1e;
+	width: 100%;
+	height: 50vh;
+}
+.cuadrogris1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.cuadrogris2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.btn-1
+{
+	background-color:#373232;
+	width:50px;
+	height: 50px;
+	border:none;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0;
+	transition: ease-out 0.3s;
+	display: inline-block;
+	animation:fadeInLeft;	
+	animation-duration: 5s;
+}
+
+.btn-1:hover {
+	box-shadow: inset 300px 0 0 0 #D52323;
+}
+
+.btn-2
+{
+	background-color:#373232;
+	width:50px;
+	height: 50px;
+	border:none;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0;
+	transition: ease-out 0.3s;
+	display: inline-block;
+	animation:fadeInLeft;	
+	animation-duration: 5s;
+
+}
+
+.btn-2:hover {
+	box-shadow: inset 300px 0 0 0 #D52323;
+}
+
+.cuadroblanco
+{
+	background-color:white;
+	width: 100%;
+	height: 50px;
+	padding: 10px;	
+	display: inline-block;
+	animation:fadeInLeft;	
+	animation-duration: 5s;
+	
+}
+
+.cuadronaran
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;	
+	display: inline-block;
+	animation:fadeInLeft;	
+	animation-duration: 5s;
+}
+.btn-3
+{
+	background-color: orange;
+	width:50px;
+	height: 50px;
+	border:none;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #E18F09;
+	transition: ease-out 0.3s;
+}
+.btn-3:hover {
+	box-shadow: inset 300px 0 0 0 #FF5733;
+}
+
+.cuadroamarillo
+{
+	width: 8rem;
+	height: 8rem;
+	margin-top: 40px;
+	margin-left: 140px;
+	background-color: orange;
+	animation:flipInX;
+	animation-duration: 2s;
+}
+.tituloprin
+{
+	margin-top: 30px;
+	margin-left: 2rem;
+	color: white;
+	display: ruby-base;
+	animation:rotateInDownLeft;	
+	animation-duration: 5s;
+}
+.textoti
+{
+	margin-top: -35px;
+	margin-left: 2rem;
+	color: white;
+}
+
+.cajagris
+{
+	width: 80vw;
+	height: 70vh;
+	background-color: #3f3f41;
+	margin-left: 150px;
+	margin-top: 30px;
+	animation:flipInX;
+	animation-duration: 2s;
+}
+.caja
+{
+	width: 50vw;
+	height: 30vh;
+}
+
+.cajatexto
+{
+	margin-top: 20px;
+	margin-left: 8.5rem;
+	justify-content: justify;
+	color: white;
+	float: left;
+}
+.cajader
+{
+	float: left;
+	width: 50vw;
+	height: 30vh;
+	color: white;
+	margin-left: 35rem;
+	margin-top: -13rem;
+}
+
+.cuadro1
+{
+	width: 30%;
+	height: 10rem;
+	background-color:#404042; 
+	float: left;
+	animation:flipInX;
+	animation-duration: 2s;
+}
+.cuadro2
+{
+	width: 30%;
+	height: 10rem;
+	background-color:#565759; 
+	float: right;
+	margin-left: 32px;
+	animation:flipInX;
+	animation-duration: 2s;
+}
+.cuadro3
+{
+	width: 30%;
+	height: 10rem;
+	background-color:#6e6d72; 
+	float: right;
+	animation:flipInX;
+	animation-duration: 2s;
+}
+
+p
+{
+	display: inline-block;
+	animation: pulse;	
+	animation-duration: 2s;
+}
+
